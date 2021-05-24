@@ -46,13 +46,13 @@ def day_of_year(year, month, day):
 
 #4.3.1.9 LAB
 def is_prime(num):
-    for i in range(3,num-1):
+    for i in range(2,num-1):
         if num%i == 0:
             return False
     return True
             
 #test case    
-for i in range(1, 20):
+for i in range(1, 200):
 	if is_prime(i + 1):
 			print(i + 1, end=" ")
 print()
