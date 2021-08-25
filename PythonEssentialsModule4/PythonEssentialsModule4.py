@@ -70,4 +70,24 @@ for i in range(1, 200):
 			print(i + 1, end=" ")
 print()
 
+#4.3.1.10
+def liters_100km_to_miles_gallon(liters):
+    kmPerLitre = 100/liters
+    kmPerGallon = kmPerLitre * 3.785411784
+    milesPerGallon = kmPerGallon / 1.609344
+    return milesPerGallon
+
+#4.3.1.10
+def miles_gallon_to_liters_100km(miles):
+    kmPerGallon = miles * 1.609344
+    kmPerLitre = kmPerGallon / 3.785411784
+    liters = 100/kmPerLitre
+    return liters
+
+#print(liters_100km_to_miles_gallon(3.9))
+#print(liters_100km_to_miles_gallon(7.5))
+#print(liters_100km_to_miles_gallon(10.))
+#print(miles_gallon_to_liters_100km(60.3))
+#print(miles_gallon_to_liters_100km(31.4))
+#print(miles_gallon_to_liters_100km(23.5))
 
