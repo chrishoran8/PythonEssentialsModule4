@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f8942ef7-2cc1-4833-8672-c7a79804ce25</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonEssentialsModule4.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
